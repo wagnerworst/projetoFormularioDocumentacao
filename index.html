@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contato">
+        <img src="images/gmail.png" alt="Contato e Localização">
+        <h1>Contato e Localização</h1>
+    </div>
+    <iframe width="600" height="450" style="border:0" load="lazy" allowfullscreen 
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJu13cCJN4GZURldyRuc4KFAQ&key=AIzaSyAGueVr3bBDLNj-r6C9j2iZyTyaydpCCb8">
+    </iframe>
+    <p>Entre em contato conosco pelo e-mail: contato@auladehtml.com.br ou pelo formulário abaixo:</p>
+    <form action="Post">
+        <input type="text" placeholder="Informe seu nome" name="Nome">
+        <input type="email" placeholder="Informe seu email" name="Email">
+        <br>
+        <textarea placeholder="Digite aqui sua mensagem"></textarea>
+        <br>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+</html>
+<style>
+    .contato
+    {
+        display: flex;
+    }
+    .contato img
+    {
+        width: 50px;
+        height: 50px;
+    }
+    h1
+    {
+        margin: 0px;
+        width: 50%;
+    }
+    textarea
+    {
+        margin-top: 5px;
+        width: 352px;
+        height: 150px;
+    }
+</style>
